@@ -49,7 +49,7 @@ export class AppComponent implements OnInit {
       .pipe(
         select(isLoggedIn)
       );
-      this.isLoggedOut$ = this.store
+    this.isLoggedOut$ = this.store
       .pipe(
         select(isLoggedOut)
       );
